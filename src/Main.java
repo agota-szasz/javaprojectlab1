@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Hello world");
         System.out.println("Agota");
 
-     // Exzercise no.2
+    // Exzercise no.2
         System.out.println("Exercise no.2 = " +(10 + 1));
 
      // Excercise no.3
