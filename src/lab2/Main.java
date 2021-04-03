@@ -12,6 +12,8 @@ public class Main {
         int iiii = scadere(150,100);
         System.out.println("rezultatul sacderii este ="+ iiii);
         printJavaExercitiu3();
+        printJavaExercitiu5();
+
 
 
 
@@ -49,7 +51,16 @@ public class Main {
 
     }
 
+    public static void printJavaExercitiu5() {
+        System.out.println("  + ,, ,, ,, ,, ,,  + " );
+        System.out.println(" [|    O     O      |] " );
+        System.out.println("  |       ^         | " );
+        System.out.println("  |     '____'      | " );
+        System.out.println("  +                 + " );
+        System.out.println("   ------------------  ");
 
+
+    }
 
 
 }
