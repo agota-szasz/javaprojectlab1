@@ -52,8 +52,8 @@ public class Main {
     }
 
     public static void printJavaExercitiu5() {
-        System.out.println("  + ,, ,, ,, ,, ,,  + " );
-        System.out.println(" [|    O     O      |] " );
+        System.out.println("  +\" \" \" \" \" \" + ");
+        System.out.println(" [|    O     O      |] ");
         System.out.println("  |       ^         | " );
         System.out.println("  |     '____'      | " );
         System.out.println("  +                 + " );
