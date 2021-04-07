@@ -11,6 +11,22 @@ public class AppMain {
         rona.setWeight(20);
         rona.setColor("brown");
 
+        Dog1 tyson = new Dog1();
+        tyson.setName("Tyson");
+        tyson.setHeightInCm(160);
+        tyson.setAge(8);
+        tyson.setBreed("labrador");
+        tyson.setWeight(35);
+        tyson.setColor("yellow");
+        tyson.setHealth(8);
+        tyson.setFavoriteFood("royalcanin");
+        tyson.setHungry(10);
+        tyson.setStateOfMind(10);
+        tyson.setRecreationActivity("sleeping");
+
+
+
+
 
         Girl ana = new Girl();
         ana.setName("Ana");
@@ -31,6 +47,20 @@ public class AppMain {
                 ", si face parte din rasa "+ rona.getBreed()+
                 ", si are greutatea de "+ rona.getWeight()+ " kg"+
                 ", si are culoarea "+ rona.getColor()
+        );
+
+
+        System.out.println("Pe catelul meu il cheama "+ tyson.getName()+
+                ", si are inaltimea in cm "+ tyson.getHeightInCm()+
+                ", si are varsta de "+ tyson.getAge()+ " ani"+
+                ", si face parte din rasa "+ tyson.getBreed()+
+                ", si are greutatea de "+ tyson.getWeight()+ " kg"+
+                ", si are culoarea "+ tyson.getColor()+
+                " Activitatea favorita este "+ tyson.getRecreationActivity()+
+                " Mancarea favorita este "+ tyson.getFavoriteFood()+
+                " Are indicele de sanatate "+ tyson.getHealth()+
+                " Indicele starii de spirit este de "+ tyson.getStateOfMind()
+
         );
 
 
