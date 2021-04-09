@@ -1,6 +1,6 @@
 package lab2.AnimalRescue;
 
-public class Dog {
+public class Dog  extends Animal {
 
     private String name;
     private String breed;
@@ -8,6 +8,8 @@ public class Dog {
     private String color;
     private float weight;
     private int heightInCm;
+    private int male;
+
 
 
     public String getName() {

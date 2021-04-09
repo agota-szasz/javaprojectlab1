@@ -2,6 +2,6 @@ package lab2.AnimalRescue;
 
 public class Activity {
 
-    String name = "sleeping";
+     private String name;
 
 }
